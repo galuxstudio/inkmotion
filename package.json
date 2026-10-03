@@ -1,0 +1,24 @@
+{
+  "name": "inkmotion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Handwriting and hand-drawn motion graphics for Claude Code, rendered with Remotion",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node scripts/render.mjs",
+    "fonts": "node scripts/render.mjs examples/fonts.json out/fonts.png --still=end"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.487",
+    "@remotion/google-fonts": "4.0.487",
+    "@remotion/paths": "4.0.487",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.487"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

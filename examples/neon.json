@@ -1,0 +1,112 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "background": {
+    "type": "color",
+    "color": "#0b0d1a"
+  },
+  "layers": [
+    {
+      "id": "t1",
+      "type": "write",
+      "text": "Happy Hour",
+      "font": "hershey-script",
+      "x": "50%",
+      "y": "34%",
+      "size": 210,
+      "color": "#ff4fd8",
+      "strokeWidth": 9,
+      "glow": {
+        "color": "#ff4fd8",
+        "radius": 18,
+        "strength": 3
+      },
+      "penTip": {
+        "color": "#ffffff",
+        "radius": 7,
+        "glow": 22
+      },
+      "start": 0.3,
+      "exit": {
+        "type": "erase",
+        "at": 6.2,
+        "duration": 0.8
+      }
+    },
+    {
+      "type": "write",
+      "text": "4 – 7 pm",
+      "font": "readability",
+      "x": "50%",
+      "y": "44%",
+      "size": 120,
+      "color": "#5ee7ff",
+      "strokeWidth": 7,
+      "glow": {
+        "color": "#5ee7ff",
+        "radius": 14,
+        "strength": 3
+      },
+      "start": "+0.15",
+      "speed": 8,
+      "exit": {
+        "type": "fade",
+        "at": 6.4
+      }
+    },
+    {
+      "type": "doodle",
+      "shape": "sparkle",
+      "x": "82%",
+      "y": "29%",
+      "w": 140,
+      "h": 140,
+      "color": "#ffe14d",
+      "strokeWidth": 7,
+      "glow": {
+        "color": "#ffe14d",
+        "radius": 12
+      },
+      "start": "@t1+0.1",
+      "exit": {
+        "type": "wipe",
+        "at": 6.4
+      }
+    },
+    {
+      "type": "svg",
+      "src": "assets/cup.svg",
+      "x": "50%",
+      "y": "62%",
+      "w": 380,
+      "color": "#f4efe6",
+      "strokeWidth": 6,
+      "start": "@t1.start+1.0",
+      "duration": 2.2,
+      "fillDuration": 0.6,
+      "exit": {
+        "type": "fade",
+        "at": 6.4
+      }
+    },
+    {
+      "type": "text",
+      "text": "2x1 margaritas",
+      "fontFamily": "Bebas Neue",
+      "size": 120,
+      "x": "50%",
+      "y": "79%",
+      "color": "#f4efe6",
+      "letterSpacing": 0.04,
+      "animation": "blur",
+      "by": "char",
+      "start": 3.2,
+      "exit": {
+        "type": "wipe",
+        "at": 6.3
+      }
+    }
+  ],
+  "tail": 0.5
+}

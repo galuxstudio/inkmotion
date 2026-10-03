@@ -1,0 +1,85 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "background": {
+    "type": "color",
+    "color": "#f4efe6"
+  },
+  "layers": [
+    {
+      "id": "title",
+      "type": "write",
+      "text": "Hola, mundo",
+      "font": "allure",
+      "x": "50%",
+      "y": "36%",
+      "size": 190,
+      "color": "#1d2340",
+      "start": 0.4
+    },
+    {
+      "type": "doodle",
+      "shape": "underline",
+      "x": "50%",
+      "y": "41%",
+      "w": 560,
+      "h": 40,
+      "color": "#e8622c",
+      "strokeWidth": 10,
+      "start": "+0.1"
+    },
+    {
+      "type": "write",
+      "text": "escrito a mano, trazo por trazo",
+      "font": "readability",
+      "x": "50%",
+      "y": "49%",
+      "size": 64,
+      "color": "#1d2340",
+      "start": "+0.2",
+      "duration": 2.0
+    },
+    {
+      "type": "text",
+      "text": "¡Sin After Effects!",
+      "fontFamily": "Poppins",
+      "weight": 800,
+      "size": 76,
+      "x": "50%",
+      "y": "60%",
+      "color": "#1d2340",
+      "animation": "pop",
+      "by": "word",
+      "start": "+0.3"
+    },
+    {
+      "type": "doodle",
+      "shape": "circle",
+      "x": "50%",
+      "y": "60%",
+      "w": 700,
+      "h": 170,
+      "color": "#e8622c",
+      "strokeWidth": 8,
+      "start": "+0.1"
+    },
+    {
+      "type": "doodle",
+      "shape": "arrow",
+      "from": [
+        "22%",
+        "73%"
+      ],
+      "to": [
+        "30%",
+        "64.5%"
+      ],
+      "bend": -0.35,
+      "color": "#1d2340",
+      "strokeWidth": 7,
+      "start": "+0.1"
+    }
+  ],
+  "tail": 1.2
+}
